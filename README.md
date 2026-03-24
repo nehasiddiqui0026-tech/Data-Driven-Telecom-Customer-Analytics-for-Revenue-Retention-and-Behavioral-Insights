@@ -69,7 +69,7 @@ Unit price is strongly right-skewed with most customers paying less per unit pri
 ![BP2](https://github.com/nehasiddiqui0026-tech/Data-Driven-Telecom-Customer-Analytics-for-Revenue-Retention-and-Behavioral-Insights/blob/main/visualisations/Bar%20Plot%20for%20MTN%20Device.png)
 ![BP3](https://github.com/nehasiddiqui0026-tech/Data-Driven-Telecom-Customer-Analytics-for-Revenue-Retention-and-Behavioral-Insights/blob/main/visualisations/Bar%20Plot%20for%20Customer%20Review.png)
 ![BP4](https://github.com/nehasiddiqui0026-tech/Data-Driven-Telecom-Customer-Analytics-for-Revenue-Retention-and-Behavioral-Insights/blob/main/visualisations/Bar%20Plot%20for%20Churn%20Status.png)
-![BP5](https://github.com/nehasiddiqui0026-tech/Data-Driven-Telecom-Customer-Analytics-for-Revenue-Retention-and-Behavioral-Insights/blob/main/visualisations/Bar%20Plot%20for%20Subscription%20Plans.jpg)
+![BP5](https://github.com/nehasiddiqui0026-tech/Data-Driven-Telecom-Customer-Analytics-for-Revenue-Retention-and-Behavioral-Insights/blob/main/visualisations/Bar%20Plot%20for%20Subscription%20Plans.png)
 
 Categorical Feature analysis displays bar blots for each variable. Gender, Customer review along with Devices used across customers are uniformly distributed for each category. Customer review having high poor reviews is also an area for improvement so that customer loyalty is not diminished. Majority of the customers had no churn (1=No) which is a positive insight.  
 165 GB monthly plan is the most popular, along with 60GB monthly and 65 GB monthly plans. The company gains revenue mainly from monthly subscription plans, indicating that more diversity should be introduced for them. Lower sought after subscription plans such as 1 GB daily plan should be reevaluated and marketed more.   
@@ -101,13 +101,13 @@ A linear regression analysis is performed to determine the relationship between 
 
 ![EQ1](https://github.com/nehasiddiqui0026-tech/Data-Driven-Telecom-Customer-Analytics-for-Revenue-Retention-and-Behavioral-Insights/blob/main/equations/Multivariate%20Regression%20Equation.png)
 
-![Res1](https://github.com/nehasiddiqui0026-tech/Data-Driven-Telecom-Customer-Analytics-for-Revenue-Retention-and-Behavioral-Insights/blob/main/results/Multivariate%20Regression%20Output.jpg)
+![Res1](https://github.com/nehasiddiqui0026-tech/Data-Driven-Telecom-Customer-Analytics-for-Revenue-Retention-and-Behavioral-Insights/blob/main/results/Multivariate%20Regression%20Output.png)
 
 The results of the regression model display the intercept to be -105223.8. Both variables are highly significant and impact Total revenue as Customer tenure and data usage have p<0.001 respectively. Analyzing coefficients, for each additional month that the customer uses the service, total revenue increases by 7,574.8. For each additional GB of data usage, total revenue increase by 1,519.3. The r-squared value indicates that about 23 percent of the variance in revenue is explained by the two independent variables. Based on the regression output, Customer tenure is more significant in impacting total revenue as the p-value 6.45e-07 is much smaller.  
 
-![MRG1](https://github.com/nehasiddiqui0026-tech/Data-Driven-Telecom-Customer-Analytics-for-Revenue-Retention-and-Behavioral-Insights/blob/main/visualisations/Total%20Revenue%20vs%20Data%20Usage%20with%20Regression%20Line.jpg)
+![MRG1](https://github.com/nehasiddiqui0026-tech/Data-Driven-Telecom-Customer-Analytics-for-Revenue-Retention-and-Behavioral-Insights/blob/main/visualisations/Total%20Revenue%20vs%20Data%20Usage%20with%20Regression%20Line.png)
 
-![MRG2](https://github.com/nehasiddiqui0026-tech/Data-Driven-Telecom-Customer-Analytics-for-Revenue-Retention-and-Behavioral-Insights/blob/main/visualisations/Total%20Revenue%20vs%20Customer%20Tenure%20with%20Regression%20Line.jpg)
+![MRG2](https://github.com/nehasiddiqui0026-tech/Data-Driven-Telecom-Customer-Analytics-for-Revenue-Retention-and-Behavioral-Insights/blob/main/visualisations/Total%20Revenue%20vs%20Customer%20Tenure%20with%20Regression%20Line.png)
 
 The Graphs show a visual representation of each independent variable’s relationship with Total revenue. Customer Tenure shows a more steeper curve, indicating a stronger positive correlation, as reiterated by the regression analysis. The revised equation is as below: 
 
@@ -119,7 +119,7 @@ The Graphs show a visual representation of each independent variable’s relatio
 ### Multivariate Regression with Interaction
 ![EQ3](https://github.com/nehasiddiqui0026-tech/Data-Driven-Telecom-Customer-Analytics-for-Revenue-Retention-and-Behavioral-Insights/blob/main/equations/Multivariate%20Regression%20with%20Interaction%20Equation.png)
 
-![Res2](https://github.com/nehasiddiqui0026-tech/Data-Driven-Telecom-Customer-Analytics-for-Revenue-Retention-and-Behavioral-Insights/blob/main/results/Multivariate%20Regression%20with%20Interaction%20Output.jpg)
+![Res2](https://github.com/nehasiddiqui0026-tech/Data-Driven-Telecom-Customer-Analytics-for-Revenue-Retention-and-Behavioral-Insights/blob/main/results/Multivariate%20Regression%20with%20Interaction%20Output.png)
 
 The results for the regression model with interaction of satisfaction rate display key numerical values. The coefficients have substantially decreased from the previous regression model without the interaction. Furthermore, the interaction between customer tenure and satisfaction rate along with data usage and satisfaction rate is not significant as p>0.001. This conclusion was unexpected considering the more satisfied the customers are, the longer they would use the service. However from this telecommunication company there was no relevance between the variables and satisfaction. However, the r-squared value is seen to increase to 24 percent, indicating that 24 percent of changes in total revenue is explained by the model. While Data usage and Tenure are statistically significant in relation to Revenue, customer satisfaction does not influence that relationship. The revised equation is as seen below:  
 
@@ -129,7 +129,7 @@ The results for the regression model with interaction of satisfaction rate displ
 ### Classification Model
 The Regression tree model was applied to asses factors that impact Total revenue of the organization.
 
-![VI](https://github.com/nehasiddiqui0026-tech/Data-Driven-Telecom-Customer-Analytics-for-Revenue-Retention-and-Behavioral-Insights/blob/main/results/Variable%20Importance%20and%20Regression%20Tree%20Output.jpg)
+![VI](https://github.com/nehasiddiqui0026-tech/Data-Driven-Telecom-Customer-Analytics-for-Revenue-Retention-and-Behavioral-Insights/blob/main/results/Variable%20Importance%20and%20Regression%20Tree%20Output.png)
 
 The variable importance score indicates that Unit per price, frequency of purchase, customer tenure and data usage have relatedly high scores. This signifies that they have a direct impact on the revenue generated. As the number of splits in the regression tree increases from 0 to 6, the relative error and cross validated error decreases. This can be interpreted as the tree continues to fit the data better as it grows. However, to prevent overfitting, spitting is avoided when the cross validated error stops improving.  
 
