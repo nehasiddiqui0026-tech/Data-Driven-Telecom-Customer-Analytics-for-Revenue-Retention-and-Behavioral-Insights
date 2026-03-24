@@ -68,7 +68,7 @@ Unit price is strongly right-skewed with most customers paying less per unit pri
 ![BP1](https://github.com/nehasiddiqui0026-tech/Data-Driven-Telecom-Customer-Analytics-for-Revenue-Retention-and-Behavioral-Insights/blob/main/visualisations/Bar%20Plot%20for%20Gender.png)
 ![BP2](https://github.com/nehasiddiqui0026-tech/Data-Driven-Telecom-Customer-Analytics-for-Revenue-Retention-and-Behavioral-Insights/blob/main/visualisations/Bar%20Plot%20for%20MTN%20Device.png)
 ![BP3](https://github.com/nehasiddiqui0026-tech/Data-Driven-Telecom-Customer-Analytics-for-Revenue-Retention-and-Behavioral-Insights/blob/main/visualisations/Bar%20Plot%20for%20Customer%20Review.png)
-![BP4](https://github.com/nehasiddiqui0026-tech/Data-Driven-Telecom-Customer-Analytics-for-Revenue-Retention-and-Behavioral-Insights/blob/main/visualisations/Bar%20Plot%20for%20Churn%20Status.jpg)
+![BP4](https://github.com/nehasiddiqui0026-tech/Data-Driven-Telecom-Customer-Analytics-for-Revenue-Retention-and-Behavioral-Insights/blob/main/visualisations/Bar%20Plot%20for%20Churn%20Status.png)
 ![BP5](https://github.com/nehasiddiqui0026-tech/Data-Driven-Telecom-Customer-Analytics-for-Revenue-Retention-and-Behavioral-Insights/blob/main/visualisations/Bar%20Plot%20for%20Subscription%20Plans.jpg)
 
 Categorical Feature analysis displays bar blots for each variable. Gender, Customer review along with Devices used across customers are uniformly distributed for each category. Customer review having high poor reviews is also an area for improvement so that customer loyalty is not diminished. Majority of the customers had no churn (1=No) which is a positive insight.  
